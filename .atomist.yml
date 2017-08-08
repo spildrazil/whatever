@@ -15,3 +15,17 @@ generator:
     - "rootPackage": "com.myorg"
     - "serviceClassName": "Test"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170728065612"
+editor:
+  name: "AddTravisWebhook"
+  group: "atomist"
+  artifact: "enrollment-rugs"
+  version: "0.2.59"
+  origin:
+    repo: "git@github.com:atomisthq/enrollment-rugs"
+    branch: "nortissej/suggest-build-integration"
+    sha: "c8499cf*"
+
